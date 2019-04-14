@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5044EAEB457ABFD79CEAB2B7F3FB1B9B /* Flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Flutter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2BB3ECDAF009C5CAC943F5231A5ED38E /* FlutterStatusbarcolorPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F15C48C8964C77CDF9139AF75F7BCD /* FlutterStatusbarcolorPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6AB43897D573543710218214665F7D93 /* flutter_statusbarcolor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 359FC68F4B016365BBE5F3415B3D92DB /* flutter_statusbarcolor-dummy.m */; };
+		6DC830D63BF4A9CA644CE812FE4170E5 /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3191A2EE3F5DEAA6137AA670A1D2FE /* Pods-Runner-dummy.m */; };
+		BF8B326FFDED36CCBAB5E24A0D6E9ED5 /* FlutterStatusbarcolorPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BC82476AE73C9CEDA397A12809D85C5A /* FlutterStatusbarcolorPlugin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F122987E231FDBC9E28A5C812C912D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AF325D5C903C135C70D4258C9B26000;
+			remoteInfo = flutter_statusbarcolor;
+		};
+		6763095BBFEC3F825AB44E963ABBD0EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5044EAEB457ABFD79CEAB2B7F3FB1B9B;
+			remoteInfo = Flutter;
+		};
+		8C6FC6C56F9A0CAB3E65B7152763E8F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5044EAEB457ABFD79CEAB2B7F3FB1B9B;
+			remoteInfo = Flutter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		106FAFFC4857E248DCAE3CB404CB646E /* Flutter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.xcconfig; sourceTree = "<group>"; };
+		18BEE4BA9DD1B737D4DEEF363CD42467 /* libflutter_statusbarcolor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libflutter_statusbarcolor.a; path = libflutter_statusbarcolor.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D931C313B69DE76915B4B938597E34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../Documents/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_statusbarcolor-0.2.0/LICENSE"; sourceTree = "<group>"; };
+		359FC68F4B016365BBE5F3415B3D92DB /* flutter_statusbarcolor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "flutter_statusbarcolor-dummy.m"; sourceTree = "<group>"; };
+		36A62630625CE129F77D2A9040418B74 /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Flutter.podspec; path = ../../../../../../../Documents/flutter/bin/cache/artifacts/engine/ios/Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		577FDB0F59F5F72558D81964166CC987 /* flutter_statusbarcolor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_statusbarcolor.xcconfig; sourceTree = "<group>"; };
+		6014533B59AB66276BE547193099CF12 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = ../../../../../../../Documents/flutter/bin/cache/artifacts/engine/ios/Flutter.framework; sourceTree = "<group>"; };
+		63DF12DD71A75B6D80D6E90F22DEFAF5 /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6425C9239275913C0655902C5C1816E4 /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
+		7FEC6810C4E99AFDF755337D0CA5634C /* flutter_statusbarcolor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = flutter_statusbarcolor.podspec; path = "../../../../../../../../Documents/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_statusbarcolor-0.2.0/ios/flutter_statusbarcolor.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		837A8C019D26683F54B54281E5AE70D9 /* flutter_statusbarcolor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_statusbarcolor-prefix.pch"; sourceTree = "<group>"; };
+		877D0910218D5D0C4FB97E350261BACF /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
+		8E504D06699D8D628882642A9BB1F93D /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B7FD0E1BDA083074F4B8EC6DAF33D3A8 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		BC82476AE73C9CEDA397A12809D85C5A /* FlutterStatusbarcolorPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlutterStatusbarcolorPlugin.m; path = "../../../../../../../../../Documents/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_statusbarcolor-0.2.0/ios/Classes/FlutterStatusbarcolorPlugin.m"; sourceTree = "<group>"; };
+		BF5B0CF499D9B5C0978DA6A7B55FE067 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../../../../../../../Documents/flutter/bin/cache/artifacts/engine/ios/LICENSE; sourceTree = "<group>"; };
+		C0B7ADB2F42BDADF9645F660F61BE1CE /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		CA3191A2EE3F5DEAA6137AA670A1D2FE /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
+		D0F15C48C8964C77CDF9139AF75F7BCD /* FlutterStatusbarcolorPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlutterStatusbarcolorPlugin.h; path = "../../../../../../../../../Documents/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_statusbarcolor-0.2.0/ios/Classes/FlutterStatusbarcolorPlugin.h"; sourceTree = "<group>"; };
+		F246B406161CF27633563EC2691F84FF /* libPods-Runner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Runner.a"; path = "libPods-Runner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B537BFAD0892C9CD2DE8594580A3BEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E626BCB479D813E4AB94F26451AE0CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09CD214CAB65D1D3AB5D8DC119DAF19F /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				864EE70D7D79B9EB5C15E07F38F3E43A /* flutter_statusbarcolor */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		12C28AEAE917F50A610890490D179CC3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				106FAFFC4857E248DCAE3CB404CB646E /* Flutter.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../Pods/Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+		13B73FF038E970C9BFE0C6B001E428DB /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				E5D6D17CBD38C95DD9F59D7C120F5346 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1A06604406327006CDDA233A1BEFE161 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				9C0C2C15CC15E2CDDBF5CB54D80E7668 /* Frameworks */,
+				EA544D87BF9802E19233F256EBA9D023 /* Pod */,
+				12C28AEAE917F50A610890490D179CC3 /* Support Files */,
+			);
+			name = Flutter;
+			path = ../.symlinks/flutter/ios;
+			sourceTree = "<group>";
+		};
+		1AEF3F691AA2BE2171B86C31C2D5EC23 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				C952EE255B2719575C0E370F921C430F /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		220D05C2612F0F96E276B909F5A39FB5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7FEC6810C4E99AFDF755337D0CA5634C /* flutter_statusbarcolor.podspec */,
+				22D931C313B69DE76915B4B938597E34 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		38019A4DE5F3E1485D5A1DF3289285E5 /* Dev */ = {
+			isa = PBXGroup;
+			children = (
+				B247FF55E1D8BFCDDC09EFCB2D247A4A /* shair */,
+			);
+			name = Dev;
+			path = Dev;
+			sourceTree = "<group>";
+		};
+		46D2A4146D8B8E5D5BB71F63FCD59C23 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				E389A013E5EED67042E0253DC601ADF8 /* Desktop */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		59DA287ED5A2F9E01D5DB14D0532A13E /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				EB8B3F03327FF4CCE077704274A74CBE /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		6E098A2DD62D86512873104DC4DD048E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				577FDB0F59F5F72558D81964166CC987 /* flutter_statusbarcolor.xcconfig */,
+				359FC68F4B016365BBE5F3415B3D92DB /* flutter_statusbarcolor-dummy.m */,
+				837A8C019D26683F54B54281E5AE70D9 /* flutter_statusbarcolor-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/flutter_statusbarcolor";
+			sourceTree = "<group>";
+		};
+		6F2A2EF8165275926B54C1764A239A70 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF644C5839D23C9447930A74AC6696CD /* Pods-Runner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		74212077306AF4681D251B28EB3BBB83 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				F260664B6DFD069FCA4C9204B9E982F6 /* .. */,
+			);
+			name = ..;
+			path = "../../../../../../../../Documents/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_statusbarcolor-0.2.0/ios";
+			sourceTree = "<group>";
+		};
+		7C9CCE3CC8482204585F96A52ACA364D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BEE4BA9DD1B737D4DEEF363CD42467 /* libflutter_statusbarcolor.a */,
+				F246B406161CF27633563EC2691F84FF /* libPods-Runner.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		864EE70D7D79B9EB5C15E07F38F3E43A /* flutter_statusbarcolor */ = {
+			isa = PBXGroup;
+			children = (
+				E675E7A3C62683C880C18249D8E5731A /* ios */,
+			);
+			name = flutter_statusbarcolor;
+			path = flutter_statusbarcolor;
+			sourceTree = "<group>";
+		};
+		9C0C2C15CC15E2CDDBF5CB54D80E7668 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6014533B59AB66276BE547193099CF12 /* Flutter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B247FF55E1D8BFCDDC09EFCB2D247A4A /* shair */ = {
+			isa = PBXGroup;
+			children = (
+				59DA287ED5A2F9E01D5DB14D0532A13E /* ios */,
+			);
+			name = shair;
+			path = shair;
+			sourceTree = "<group>";
+		};
+		B6FDCC7920A1615A386C95E45A14BE54 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A06604406327006CDDA233A1BEFE161 /* Flutter */,
+				DBD6FFA1C947D53E248D53B74F4552B2 /* flutter_statusbarcolor */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C952EE255B2719575C0E370F921C430F /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				ECFA831FCC113B9FDE8E9F26BEB0BA16 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CBF0541E6650E2124DB8FAA97E9006BF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D0F15C48C8964C77CDF9139AF75F7BCD /* FlutterStatusbarcolorPlugin.h */,
+				BC82476AE73C9CEDA397A12809D85C5A /* FlutterStatusbarcolorPlugin.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B6FDCC7920A1615A386C95E45A14BE54 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				7C9CCE3CC8482204585F96A52ACA364D /* Products */,
+				6F2A2EF8165275926B54C1764A239A70 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF644C5839D23C9447930A74AC6696CD /* Pods-Runner */ = {
+			isa = PBXGroup;
+			children = (
+				63DF12DD71A75B6D80D6E90F22DEFAF5 /* Pods-Runner-acknowledgements.markdown */,
+				6425C9239275913C0655902C5C1816E4 /* Pods-Runner-acknowledgements.plist */,
+				CA3191A2EE3F5DEAA6137AA670A1D2FE /* Pods-Runner-dummy.m */,
+				877D0910218D5D0C4FB97E350261BACF /* Pods-Runner-frameworks.sh */,
+				C0B7ADB2F42BDADF9645F660F61BE1CE /* Pods-Runner.debug.xcconfig */,
+				B7FD0E1BDA083074F4B8EC6DAF33D3A8 /* Pods-Runner.profile.xcconfig */,
+				8E504D06699D8D628882642A9BB1F93D /* Pods-Runner.release.xcconfig */,
+			);
+			name = "Pods-Runner";
+			path = "Target Support Files/Pods-Runner";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBD6FFA1C947D53E248D53B74F4552B2 /* flutter_statusbarcolor */ = {
+			isa = PBXGroup;
+			children = (
+				74212077306AF4681D251B28EB3BBB83 /* .. */,
+				220D05C2612F0F96E276B909F5A39FB5 /* Pod */,
+				6E098A2DD62D86512873104DC4DD048E /* Support Files */,
+			);
+			name = flutter_statusbarcolor;
+			path = ../.symlinks/plugins/flutter_statusbarcolor/ios;
+			sourceTree = "<group>";
+		};
+		E389A013E5EED67042E0253DC601ADF8 /* Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				38019A4DE5F3E1485D5A1DF3289285E5 /* Dev */,
+			);
+			name = Desktop;
+			path = Desktop;
+			sourceTree = "<group>";
+		};
+		E5D6D17CBD38C95DD9F59D7C120F5346 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				1AEF3F691AA2BE2171B86C31C2D5EC23 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E675E7A3C62683C880C18249D8E5731A /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				CBF0541E6650E2124DB8FAA97E9006BF /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		EA544D87BF9802E19233F256EBA9D023 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				36A62630625CE129F77D2A9040418B74 /* Flutter.podspec */,
+				BF5B0CF499D9B5C0978DA6A7B55FE067 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EB8B3F03327FF4CCE077704274A74CBE /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				09CD214CAB65D1D3AB5D8DC119DAF19F /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		ECFA831FCC113B9FDE8E9F26BEB0BA16 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				46D2A4146D8B8E5D5BB71F63FCD59C23 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F260664B6DFD069FCA4C9204B9E982F6 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				13B73FF038E970C9BFE0C6B001E428DB /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CA95739A4852FA09780931820B149FD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB3ECDAF009C5CAC943F5231A5ED38E /* FlutterStatusbarcolorPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F86BFF92F21DF505FED982C298696C81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3AF325D5C903C135C70D4258C9B26000 /* flutter_statusbarcolor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86ADF09F637342A00D528769E7279FEC /* Build configuration list for PBXNativeTarget "flutter_statusbarcolor" */;
+			buildPhases = (
+				CA95739A4852FA09780931820B149FD5 /* Headers */,
+				1FB90E025C3D5C62831A30D9AD55810F /* Sources */,
+				B537BFAD0892C9CD2DE8594580A3BEB8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C4E178EBBD1A757DC4F5941D7D0D831 /* PBXTargetDependency */,
+			);
+			name = flutter_statusbarcolor;
+			productName = flutter_statusbarcolor;
+			productReference = 18BEE4BA9DD1B737D4DEEF363CD42467 /* libflutter_statusbarcolor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F973DFC6C43A43DF83774D17A75391C1 /* Pods-Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8EC333C5879CD6EAE8294A2A8E838D3 /* Build configuration list for PBXNativeTarget "Pods-Runner" */;
+			buildPhases = (
+				F86BFF92F21DF505FED982C298696C81 /* Headers */,
+				21C8658B3A7863EAD12478D38B6C549C /* Sources */,
+				E626BCB479D813E4AB94F26451AE0CDA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E59D53405CCC7F0206E38B9B0967714B /* PBXTargetDependency */,
+				F2CFA7D7015C3770AAF1602D210F900A /* PBXTargetDependency */,
+			);
+			name = "Pods-Runner";
+			productName = "Pods-Runner";
+			productReference = F246B406161CF27633563EC2691F84FF /* libPods-Runner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7C9CCE3CC8482204585F96A52ACA364D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5044EAEB457ABFD79CEAB2B7F3FB1B9B /* Flutter */,
+				3AF325D5C903C135C70D4258C9B26000 /* flutter_statusbarcolor */,
+				F973DFC6C43A43DF83774D17A75391C1 /* Pods-Runner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FB90E025C3D5C62831A30D9AD55810F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB43897D573543710218214665F7D93 /* flutter_statusbarcolor-dummy.m in Sources */,
+				BF8B326FFDED36CCBAB5E24A0D6E9ED5 /* FlutterStatusbarcolorPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21C8658B3A7863EAD12478D38B6C549C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC830D63BF4A9CA644CE812FE4170E5 /* Pods-Runner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C4E178EBBD1A757DC4F5941D7D0D831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 5044EAEB457ABFD79CEAB2B7F3FB1B9B /* Flutter */;
+			targetProxy = 8C6FC6C56F9A0CAB3E65B7152763E8F3 /* PBXContainerItemProxy */;
+		};
+		E59D53405CCC7F0206E38B9B0967714B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 5044EAEB457ABFD79CEAB2B7F3FB1B9B /* Flutter */;
+			targetProxy = 6763095BBFEC3F825AB44E963ABBD0EC /* PBXContainerItemProxy */;
+		};
+		F2CFA7D7015C3770AAF1602D210F900A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = flutter_statusbarcolor;
+			target = 3AF325D5C903C135C70D4258C9B26000 /* flutter_statusbarcolor */;
+			targetProxy = 3F122987E231FDBC9E28A5C812C912D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		14CC9A390AC104DC6C428C356F245A4E /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_PROFILE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Profile;
+		};
+		332CEFD3778CB7CFC27E08512BE76B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 577FDB0F59F5F72558D81964166CC987 /* flutter_statusbarcolor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_statusbarcolor/flutter_statusbarcolor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = flutter_statusbarcolor;
+				PRODUCT_NAME = flutter_statusbarcolor;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		381AB7E47B7B045F9E1807E1A75186E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106FAFFC4857E248DCAE3CB404CB646E /* Flutter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4194141CB13B10B0AF0118D8BAC8C9CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106FAFFC4857E248DCAE3CB404CB646E /* Flutter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		57635A8E3E225D956BBF889B7D99EBE4 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106FAFFC4857E248DCAE3CB404CB646E /* Flutter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		7DF7C877CAB1E04667A89EA25453AE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 577FDB0F59F5F72558D81964166CC987 /* flutter_statusbarcolor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_statusbarcolor/flutter_statusbarcolor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = flutter_statusbarcolor;
+				PRODUCT_NAME = flutter_statusbarcolor;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		962CAF8AB300C884F52E4E0C19D56687 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 577FDB0F59F5F72558D81964166CC987 /* flutter_statusbarcolor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_statusbarcolor/flutter_statusbarcolor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = flutter_statusbarcolor;
+				PRODUCT_NAME = flutter_statusbarcolor;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		A9ED7B9B5445644E34A59ABCFB7BCBC9 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7FD0E1BDA083074F4B8EC6DAF33D3A8 /* Pods-Runner.profile.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		CE6487E42A6225719DB360B6F527660E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B7ADB2F42BDADF9645F660F61BE1CE /* Pods-Runner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD373F45DB53EEAC74D901441B7BE556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E504D06699D8D628882642A9BB1F93D /* Pods-Runner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				14CC9A390AC104DC6C428C356F245A4E /* Profile */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86ADF09F637342A00D528769E7279FEC /* Build configuration list for PBXNativeTarget "flutter_statusbarcolor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332CEFD3778CB7CFC27E08512BE76B4E /* Debug */,
+				962CAF8AB300C884F52E4E0C19D56687 /* Profile */,
+				7DF7C877CAB1E04667A89EA25453AE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4194141CB13B10B0AF0118D8BAC8C9CA /* Debug */,
+				57635A8E3E225D956BBF889B7D99EBE4 /* Profile */,
+				381AB7E47B7B045F9E1807E1A75186E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8EC333C5879CD6EAE8294A2A8E838D3 /* Build configuration list for PBXNativeTarget "Pods-Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6487E42A6225719DB360B6F527660E /* Debug */,
+				A9ED7B9B5445644E34A59ABCFB7BCBC9 /* Profile */,
+				FD373F45DB53EEAC74D901441B7BE556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
