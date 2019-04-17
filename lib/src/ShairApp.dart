@@ -3,15 +3,13 @@ import 'package:bloc_pattern/bloc_pattern.dart';
 import '../src/blocs/ShairBloc.dart';
 import '../src/widgets/MenuAndBackgroundLayer.dart';
 import '../src/widgets/VoosPopularesHeaderLayer.dart';
-import '../src/widgets/BotaoAviaoLayer.dart';
-import '../src/widgets/BotaoAssentoLayer.dart';
-import '../src/widgets/BotaoPartidaInputLayer.dart';
-import '../src/widgets/BotaoDestinoInputLayer.dart';
+
 import '../src/widgets/BotaoProcurarLayer.dart';
 import '../src/widgets/ShairActivatorsLayer.dart';
 import '../src/widgets/VoosPopularesListLayer.dart';
 import '../src/widgets/MapContainerLayer.dart';
 import '../src/widgets/FlightListLayer.dart';
+import '../src/widgets/SearchInputLayer.dart';
 
 class ShairApp extends StatefulWidget {
   @override
@@ -22,6 +20,9 @@ class _ShairAppState extends State<ShairApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        theme: ThemeData(
+          cursorColor: Colors.black,
+        ),
         debugShowCheckedModeBanner: false,
         home: BlocProvider(
           bloc: ShairBloc(),
@@ -30,16 +31,71 @@ class _ShairAppState extends State<ShairApp> {
               return Container(
                 child: Stack(
                   children: <Widget>[
-                    MenuAndBackgroundLayer(),
+                    GestureDetector(
+                        onTap: () {
+                          FocusScope.of(context).requestFocus(new FocusNode());
+                        },
+                        child: Container(
+                            child: Stack(
+                          children: <Widget>[
+                            Container(
+                              height: double.infinity,
+                              width: double.infinity,
+                              child: Image.asset(
+                                'images/mapaBrasil.jpg',
+                                fit: BoxFit.cover,
+                                scale: 1.0,
+                              ),
+                            ),
+                            Align(
+                              alignment: Alignment.bottomCenter,
+                              child: Container(
+                                height: constraints.maxHeight * 0.35,
+                                decoration: BoxDecoration(
+                                    color: Colors.grey[50],
+                                    gradient: LinearGradient(
+                                        begin: FractionalOffset.center,
+                                        end: FractionalOffset.topCenter,
+                                        colors: [
+                                          Colors.grey[50].withOpacity(1.0),
+                                          Colors.grey[50].withOpacity(0.0)
+                                        ],
+                                        stops: [
+                                          0.0,
+                                          1.0
+                                        ])),
+                              ),
+                            )
+
+                            // Opacity(
+                            //   opacity: 0.5,
+                            //   child: Container(
+                            //     decoration: BoxDecoration(
+                            //         gradient: LinearGradient(
+                            //             begin: FractionalOffset.topCenter,
+                            //             end: FractionalOffset.bottomCenter,
+                            //             colors: [
+                            //           Colors.white,
+                            //           Colors.grey[300],
+                            //         ],
+                            //             stops: [
+                            //           0.0,
+                            //           1.0
+                            //         ])),
+                            //     height: double.infinity,
+                            //     width: double.infinity,
+                            //   ),
+                            // ),
+                          ],
+                        ))),
                     VoosPopularesHeaderLayer(),
-                    BotaoAviaoLayer(),
-                    BotaoAssentoLayer(),
-                    BotaoPartidaInputLayer(),
-                    BotaoDestinoInputLayer(),
+                    // BotaoAviaoLayer(),
+                    // BotaoAssentoLayer(),
                     // MapContainerLayer(),
                     VoosPopularesLayer(),
-                    BotaoProcurarLayer(),
                     FlightListLayer(),
+                    SearchInputLayer(),
+
                     ShairActivatorsLayer(),
                   ],
                 ),

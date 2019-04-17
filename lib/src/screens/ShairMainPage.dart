@@ -6,7 +6,7 @@ import '../widgets/BotaoAssentoActivator.dart';
 
 import '../widgets/VoosPopularesHeaderLayer.dart';
 import '../widgets/BotaoPartidaInputLayer.dart';
-import '../widgets/BotaoPartidaInputActivator.dart';
+import '../widgets/BotaoPartidaInputActivatorLayer.dart';
 
 class ShairMainPage extends StatelessWidget {
   @override
@@ -22,7 +22,7 @@ class ShairMainPage extends StatelessWidget {
               BotaoPartidaInputLayer(),
               // BotaoAssentoActivator(),
               // BotaoAviaoActivator(),
-              BotaoPartidaInputActivator()
+              BotaoPartidaInputActivatorLayer()
             ],
           ),
         );

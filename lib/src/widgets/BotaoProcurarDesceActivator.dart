@@ -23,7 +23,6 @@ class BotaoProcurarDesceActivator extends StatelessWidget {
                         shairBloc.botaoProcurarDesce();
                         shairBloc.flightListFadeOut();
                         shairBloc.weekHorizontalFlightListFadeOut();
-                        shairBloc.setCanShowFlightListToFalse();
                       },
                       child: Container(
                         height: constraints.maxHeight * 0.04,

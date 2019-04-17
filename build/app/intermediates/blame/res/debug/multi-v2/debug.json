@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/yoda/Desktop/Dev/shair/build/app/intermediates/res/merged/debug/values_values.arsc.flat",
+            "outputFile": "/Users/yoda/Documents/GitHub/Shair/build/app/intermediates/res/merged/debug/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/yoda/Desktop/Dev/shair/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/yoda/Documents/GitHub/Shair/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

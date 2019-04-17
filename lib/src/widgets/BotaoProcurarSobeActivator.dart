@@ -20,7 +20,6 @@ class BotaoProcurarSobeActivator extends StatelessWidget {
                     left: constraints.maxWidth * 0.05,
                     child: GestureDetector(
                       onTap: () {
-                        shairBloc.setCanShowFlightListToTrue();
                         shairBloc.botaoProcurarSobe();
                         shairBloc.flightListFadeIn();
                         shairBloc.weekHorizontalFlightListFadeIn();

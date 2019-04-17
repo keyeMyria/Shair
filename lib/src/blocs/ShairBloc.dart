@@ -12,7 +12,8 @@ class ShairBloc implements BlocBase {
   var _flightListOpacityController = StreamController<double>.broadcast();
   var _weekHorizontalFlightListOpacityController =
       StreamController<double>.broadcast();
-  var _canShowFlightListController = StreamController<bool>.broadcast();
+  var _searchInputController = StreamController<String>.broadcast();
+  // var _canShowFlightListController = StreamController<bool>.broadcast();
 
   Stream<String> get botaoAviaoState => _botaoAviaoController.stream;
   Stream<String> get botaoAssentoState => _botaoAssentoController.stream;
@@ -25,8 +26,9 @@ class ShairBloc implements BlocBase {
       _flightListOpacityController.stream;
   Stream<double> get weekHorizontalFlightListOpacityState =>
       _weekHorizontalFlightListOpacityController.stream;
-  Stream<bool> get canShowFlightListState =>
-      _canShowFlightListController.stream;
+  Stream<String> get searchInputState => _searchInputController.stream;
+  // Stream<bool> get canShowFlightListState =>
+  //     _canShowFlightListController.stream;
 
   Sink<String> get newBotaoAviaoState => _botaoAviaoController.sink;
   Sink<String> get newBotaoAssentoState => _botaoAssentoController.sink;
@@ -39,14 +41,27 @@ class ShairBloc implements BlocBase {
       _flightListOpacityController.sink;
   Sink<double> get newWeekHorizontalFlighListOpacityState =>
       _weekHorizontalFlightListOpacityController.sink;
-  Sink<bool> get newCanShowFlightListState => _canShowFlightListController.sink;
+  Sink<String> get newSearchInputState => _searchInputController.sink;
 
-  void setCanShowFlightListToTrue() {
-    newCanShowFlightListState.add(true);
+  // Sink<bool> get newCanShowFlightListState => _canShowFlightListController.sink;
+
+  // void setCanShowFlightListToTrue() {
+  //   newCanShowFlightListState.add(true);
+  // }
+
+  // void setCanShowFlightListToFalse() {
+  //   newCanShowFlightListState.add(false);
+  // }
+  void nenhumAberto() {
+    newSearchInputState.add('nenhumAberto');
   }
 
-  void setCanShowFlightListToFalse() {
-    newCanShowFlightListState.add(false);
+  void partidaAberto() {
+    newSearchInputState.add('partidaAberto');
+  }
+
+  void destinoAberto() {
+    newSearchInputState.add('destinoAberto');
   }
 
   void weekHorizontalFlightListFadeIn() {
@@ -121,7 +136,8 @@ class ShairBloc implements BlocBase {
 
   @override
   dispose() {
-    _canShowFlightListController.close();
+    // _canShowFlightListController.close();
+    _searchInputController.close();
     _weekHorizontalFlightListOpacityController.close();
     _flightListOpacityController.close();
     _menuController.close();

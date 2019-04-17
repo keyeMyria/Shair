@@ -19,10 +19,10 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		2BB3ECDAF009C5CAC943F5231A5ED38E /* FlutterStatusbarcolorPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F15C48C8964C77CDF9139AF75F7BCD /* FlutterStatusbarcolorPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6AB43897D573543710218214665F7D93 /* flutter_statusbarcolor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 359FC68F4B016365BBE5F3415B3D92DB /* flutter_statusbarcolor-dummy.m */; };
+		2AE91C2898DEC6AAFEA4F3442821E84E /* FlutterStatusbarcolorPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B52757BF3065CE314EDFB630020B6E1 /* FlutterStatusbarcolorPlugin.m */; };
+		6AB43897D573543710218214665F7D93 /* flutter_statusbarcolor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5313CDAB148813E0BC7A4734DA0E339A /* flutter_statusbarcolor-dummy.m */; };
 		6DC830D63BF4A9CA644CE812FE4170E5 /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3191A2EE3F5DEAA6137AA670A1D2FE /* Pods-Runner-dummy.m */; };
-		BF8B326FFDED36CCBAB5E24A0D6E9ED5 /* FlutterStatusbarcolorPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BC82476AE73C9CEDA397A12809D85C5A /* FlutterStatusbarcolorPlugin.m */; };
+		BFDB7AF58264457F84957F7966A16149 /* FlutterStatusbarcolorPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 0035933B982BD0347BD51C319BCB91E1 /* FlutterStatusbarcolorPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,26 +50,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0035933B982BD0347BD51C319BCB91E1 /* FlutterStatusbarcolorPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlutterStatusbarcolorPlugin.h; path = "../../../../../../../../flutter/.pub-cache/hosted/pub.dartlang.org/flutter_statusbarcolor-0.2.0/ios/Classes/FlutterStatusbarcolorPlugin.h"; sourceTree = "<group>"; };
 		106FAFFC4857E248DCAE3CB404CB646E /* Flutter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.xcconfig; sourceTree = "<group>"; };
 		18BEE4BA9DD1B737D4DEEF363CD42467 /* libflutter_statusbarcolor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libflutter_statusbarcolor.a; path = libflutter_statusbarcolor.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		22D931C313B69DE76915B4B938597E34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../Documents/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_statusbarcolor-0.2.0/LICENSE"; sourceTree = "<group>"; };
-		359FC68F4B016365BBE5F3415B3D92DB /* flutter_statusbarcolor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "flutter_statusbarcolor-dummy.m"; sourceTree = "<group>"; };
-		36A62630625CE129F77D2A9040418B74 /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Flutter.podspec; path = ../../../../../../../Documents/flutter/bin/cache/artifacts/engine/ios/Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		577FDB0F59F5F72558D81964166CC987 /* flutter_statusbarcolor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_statusbarcolor.xcconfig; sourceTree = "<group>"; };
-		6014533B59AB66276BE547193099CF12 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = ../../../../../../../Documents/flutter/bin/cache/artifacts/engine/ios/Flutter.framework; sourceTree = "<group>"; };
+		3D8FD5F6B88C4152815A820D8D120A9D /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Flutter.podspec; path = ../../../../../../flutter/bin/cache/artifacts/engine/ios/Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		48E25431CE0D983FFBDCB5B77335AA1F /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Flutter.framework; path = ../../../../../../flutter/bin/cache/artifacts/engine/ios/Flutter.framework; sourceTree = "<group>"; };
+		4B52757BF3065CE314EDFB630020B6E1 /* FlutterStatusbarcolorPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlutterStatusbarcolorPlugin.m; path = "../../../../../../../../flutter/.pub-cache/hosted/pub.dartlang.org/flutter_statusbarcolor-0.2.0/ios/Classes/FlutterStatusbarcolorPlugin.m"; sourceTree = "<group>"; };
+		5313CDAB148813E0BC7A4734DA0E339A /* flutter_statusbarcolor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "flutter_statusbarcolor-dummy.m"; sourceTree = "<group>"; };
 		63DF12DD71A75B6D80D6E90F22DEFAF5 /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6425C9239275913C0655902C5C1816E4 /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
-		7FEC6810C4E99AFDF755337D0CA5634C /* flutter_statusbarcolor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = flutter_statusbarcolor.podspec; path = "../../../../../../../../Documents/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_statusbarcolor-0.2.0/ios/flutter_statusbarcolor.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		837A8C019D26683F54B54281E5AE70D9 /* flutter_statusbarcolor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_statusbarcolor-prefix.pch"; sourceTree = "<group>"; };
+		6D6919159B975FC7B4EEE727B3A40D87 /* flutter_statusbarcolor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_statusbarcolor.xcconfig; sourceTree = "<group>"; };
+		726BF0FB4A678FB50BF739F24B5E564A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../../../../../../flutter/bin/cache/artifacts/engine/ios/LICENSE; sourceTree = "<group>"; };
 		877D0910218D5D0C4FB97E350261BACF /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
 		8E504D06699D8D628882642A9BB1F93D /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A357BA4F2F58C999B58726ACD8436E97 /* flutter_statusbarcolor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_statusbarcolor-prefix.pch"; sourceTree = "<group>"; };
 		B7FD0E1BDA083074F4B8EC6DAF33D3A8 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
-		BC82476AE73C9CEDA397A12809D85C5A /* FlutterStatusbarcolorPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlutterStatusbarcolorPlugin.m; path = "../../../../../../../../../Documents/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_statusbarcolor-0.2.0/ios/Classes/FlutterStatusbarcolorPlugin.m"; sourceTree = "<group>"; };
-		BF5B0CF499D9B5C0978DA6A7B55FE067 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../../../../../../../Documents/flutter/bin/cache/artifacts/engine/ios/LICENSE; sourceTree = "<group>"; };
 		C0B7ADB2F42BDADF9645F660F61BE1CE /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		C7C46409466B1C0CB3787733930BB750 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../flutter/.pub-cache/hosted/pub.dartlang.org/flutter_statusbarcolor-0.2.0/LICENSE"; sourceTree = "<group>"; };
 		CA3191A2EE3F5DEAA6137AA670A1D2FE /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
-		D0F15C48C8964C77CDF9139AF75F7BCD /* FlutterStatusbarcolorPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlutterStatusbarcolorPlugin.h; path = "../../../../../../../../../Documents/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_statusbarcolor-0.2.0/ios/Classes/FlutterStatusbarcolorPlugin.h"; sourceTree = "<group>"; };
+		E10A5FAE589E1E26B308D1FDD08DB0E9 /* flutter_statusbarcolor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = flutter_statusbarcolor.podspec; path = "../../../../../../../flutter/.pub-cache/hosted/pub.dartlang.org/flutter_statusbarcolor-0.2.0/ios/flutter_statusbarcolor.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F246B406161CF27633563EC2691F84FF /* libPods-Runner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Runner.a"; path = "libPods-Runner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -91,13 +91,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09CD214CAB65D1D3AB5D8DC119DAF19F /* plugins */ = {
+		098F24D191B2813A767A8FBD89EC089F /* .symlinks */ = {
 			isa = PBXGroup;
 			children = (
-				864EE70D7D79B9EB5C15E07F38F3E43A /* flutter_statusbarcolor */,
+				D3371D292823630867EBEFDBF90730FB /* plugins */,
 			);
-			name = plugins;
-			path = plugins;
+			name = .symlinks;
+			path = .symlinks;
 			sourceTree = "<group>";
 		};
 		12C28AEAE917F50A610890490D179CC3 /* Support Files */ = {
@@ -109,80 +109,87 @@
 			path = "../../../Pods/Target Support Files/Flutter";
 			sourceTree = "<group>";
 		};
-		13B73FF038E970C9BFE0C6B001E428DB /* .. */ = {
+		15C08C850C023B2313E6421F782AF58D /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				E5D6D17CBD38C95DD9F59D7C120F5346 /* .. */,
+				3496C2AC79CB2B3C821A8C9033F6253C /* Classes */,
 			);
-			name = ..;
-			path = ..;
+			name = ios;
+			path = ios;
 			sourceTree = "<group>";
 		};
 		1A06604406327006CDDA233A1BEFE161 /* Flutter */ = {
 			isa = PBXGroup;
 			children = (
-				9C0C2C15CC15E2CDDBF5CB54D80E7668 /* Frameworks */,
-				EA544D87BF9802E19233F256EBA9D023 /* Pod */,
+				5BC70F692F339C4B19C1D4E67B6629DB /* Frameworks */,
+				926674008C79E0881928B4BCF08E5835 /* Pod */,
 				12C28AEAE917F50A610890490D179CC3 /* Support Files */,
 			);
 			name = Flutter;
 			path = ../.symlinks/flutter/ios;
 			sourceTree = "<group>";
 		};
-		1AEF3F691AA2BE2171B86C31C2D5EC23 /* .. */ = {
+		22D452B2BE5AD55FBA062A1A904E6667 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				C952EE255B2719575C0E370F921C430F /* .. */,
+				F3A8D05C1CAD9584AB44D0F2C5CB2A51 /* .. */,
 			);
 			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		220D05C2612F0F96E276B909F5A39FB5 /* Pod */ = {
+		278C792015BAD55A1457F8EE07E9022F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7FEC6810C4E99AFDF755337D0CA5634C /* flutter_statusbarcolor.podspec */,
-				22D931C313B69DE76915B4B938597E34 /* LICENSE */,
+				E10A5FAE589E1E26B308D1FDD08DB0E9 /* flutter_statusbarcolor.podspec */,
+				C7C46409466B1C0CB3787733930BB750 /* LICENSE */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		38019A4DE5F3E1485D5A1DF3289285E5 /* Dev */ = {
+		3496C2AC79CB2B3C821A8C9033F6253C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B247FF55E1D8BFCDDC09EFCB2D247A4A /* shair */,
+				0035933B982BD0347BD51C319BCB91E1 /* FlutterStatusbarcolorPlugin.h */,
+				4B52757BF3065CE314EDFB630020B6E1 /* FlutterStatusbarcolorPlugin.m */,
 			);
-			name = Dev;
-			path = Dev;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		46D2A4146D8B8E5D5BB71F63FCD59C23 /* .. */ = {
+		3A1D5E279C3235BA1516353701268687 /* GitHub */ = {
 			isa = PBXGroup;
 			children = (
-				E389A013E5EED67042E0253DC601ADF8 /* Desktop */,
+				B3D8D6F831BC5899CC5DA9F60EC293EA /* Shair */,
+			);
+			name = GitHub;
+			path = GitHub;
+			sourceTree = "<group>";
+		};
+		578257328C6999A1043B5F991D61F986 /* flutter_statusbarcolor */ = {
+			isa = PBXGroup;
+			children = (
+				15C08C850C023B2313E6421F782AF58D /* ios */,
+			);
+			name = flutter_statusbarcolor;
+			path = flutter_statusbarcolor;
+			sourceTree = "<group>";
+		};
+		5B0F950A51CD57CD5F5079044BCA443B /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				CB61FB0D35986A6B02302EA875E09CB2 /* .. */,
 			);
 			name = ..;
-			path = ..;
+			path = "../../../../../../../flutter/.pub-cache/hosted/pub.dartlang.org/flutter_statusbarcolor-0.2.0/ios";
 			sourceTree = "<group>";
 		};
-		59DA287ED5A2F9E01D5DB14D0532A13E /* ios */ = {
+		5BC70F692F339C4B19C1D4E67B6629DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EB8B3F03327FF4CCE077704274A74CBE /* .symlinks */,
+				48E25431CE0D983FFBDCB5B77335AA1F /* Flutter.framework */,
 			);
-			name = ios;
-			path = ios;
-			sourceTree = "<group>";
-		};
-		6E098A2DD62D86512873104DC4DD048E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				577FDB0F59F5F72558D81964166CC987 /* flutter_statusbarcolor.xcconfig */,
-				359FC68F4B016365BBE5F3415B3D92DB /* flutter_statusbarcolor-dummy.m */,
-				837A8C019D26683F54B54281E5AE70D9 /* flutter_statusbarcolor-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../../../../Pods/Target Support Files/flutter_statusbarcolor";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		6F2A2EF8165275926B54C1764A239A70 /* Targets Support Files */ = {
@@ -193,13 +200,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		74212077306AF4681D251B28EB3BBB83 /* .. */ = {
+		784AC4E0FF21C114AD2D93691BE5FC77 /* flutter_statusbarcolor */ = {
 			isa = PBXGroup;
 			children = (
-				F260664B6DFD069FCA4C9204B9E982F6 /* .. */,
+				5B0F950A51CD57CD5F5079044BCA443B /* .. */,
+				278C792015BAD55A1457F8EE07E9022F /* Pod */,
+				C9D2DD23FD706C7152E191E38332BD16 /* Support Files */,
 			);
-			name = ..;
-			path = "../../../../../../../../Documents/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_statusbarcolor-0.2.0/ios";
+			name = flutter_statusbarcolor;
+			path = ../.symlinks/plugins/flutter_statusbarcolor/ios;
 			sourceTree = "<group>";
 		};
 		7C9CCE3CC8482204585F96A52ACA364D /* Products */ = {
@@ -211,58 +220,69 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		864EE70D7D79B9EB5C15E07F38F3E43A /* flutter_statusbarcolor */ = {
+		926674008C79E0881928B4BCF08E5835 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E675E7A3C62683C880C18249D8E5731A /* ios */,
+				3D8FD5F6B88C4152815A820D8D120A9D /* Flutter.podspec */,
+				726BF0FB4A678FB50BF739F24B5E564A /* LICENSE */,
 			);
-			name = flutter_statusbarcolor;
-			path = flutter_statusbarcolor;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		9C0C2C15CC15E2CDDBF5CB54D80E7668 /* Frameworks */ = {
+		B0F95CD245E904507EC387527302A02E /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				6014533B59AB66276BE547193099CF12 /* Flutter.framework */,
+				DFBAA25660BF86D76E5714C772860297 /* .. */,
 			);
-			name = Frameworks;
+			name = ..;
+			path = ..;
 			sourceTree = "<group>";
 		};
-		B247FF55E1D8BFCDDC09EFCB2D247A4A /* shair */ = {
+		B3D8D6F831BC5899CC5DA9F60EC293EA /* Shair */ = {
 			isa = PBXGroup;
 			children = (
-				59DA287ED5A2F9E01D5DB14D0532A13E /* ios */,
+				E67B6F31A007065AE97F28860FCBCDAE /* ios */,
 			);
-			name = shair;
-			path = shair;
+			name = Shair;
+			path = Shair;
 			sourceTree = "<group>";
 		};
 		B6FDCC7920A1615A386C95E45A14BE54 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
 				1A06604406327006CDDA233A1BEFE161 /* Flutter */,
-				DBD6FFA1C947D53E248D53B74F4552B2 /* flutter_statusbarcolor */,
+				784AC4E0FF21C114AD2D93691BE5FC77 /* flutter_statusbarcolor */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		C952EE255B2719575C0E370F921C430F /* .. */ = {
+		BD5180442426102F9CB82C2334B062B5 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				ECFA831FCC113B9FDE8E9F26BEB0BA16 /* .. */,
+				B0F95CD245E904507EC387527302A02E /* .. */,
 			);
 			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		CBF0541E6650E2124DB8FAA97E9006BF /* Classes */ = {
+		C9D2DD23FD706C7152E191E38332BD16 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D0F15C48C8964C77CDF9139AF75F7BCD /* FlutterStatusbarcolorPlugin.h */,
-				BC82476AE73C9CEDA397A12809D85C5A /* FlutterStatusbarcolorPlugin.m */,
+				6D6919159B975FC7B4EEE727B3A40D87 /* flutter_statusbarcolor.xcconfig */,
+				5313CDAB148813E0BC7A4734DA0E339A /* flutter_statusbarcolor-dummy.m */,
+				A357BA4F2F58C999B58726ACD8436E97 /* flutter_statusbarcolor-prefix.pch */,
 			);
-			name = Classes;
-			path = Classes;
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/flutter_statusbarcolor";
+			sourceTree = "<group>";
+		};
+		CB61FB0D35986A6B02302EA875E09CB2 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				BD5180442426102F9CB82C2334B062B5 /* .. */,
+			);
+			name = ..;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -291,6 +311,15 @@
 			path = "Target Support Files/Pods-Runner";
 			sourceTree = "<group>";
 		};
+		D3371D292823630867EBEFDBF90730FB /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				578257328C6999A1043B5F991D61F986 /* flutter_statusbarcolor */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,75 +327,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DBD6FFA1C947D53E248D53B74F4552B2 /* flutter_statusbarcolor */ = {
+		DFBAA25660BF86D76E5714C772860297 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				74212077306AF4681D251B28EB3BBB83 /* .. */,
-				220D05C2612F0F96E276B909F5A39FB5 /* Pod */,
-				6E098A2DD62D86512873104DC4DD048E /* Support Files */,
-			);
-			name = flutter_statusbarcolor;
-			path = ../.symlinks/plugins/flutter_statusbarcolor/ios;
-			sourceTree = "<group>";
-		};
-		E389A013E5EED67042E0253DC601ADF8 /* Desktop */ = {
-			isa = PBXGroup;
-			children = (
-				38019A4DE5F3E1485D5A1DF3289285E5 /* Dev */,
-			);
-			name = Desktop;
-			path = Desktop;
-			sourceTree = "<group>";
-		};
-		E5D6D17CBD38C95DD9F59D7C120F5346 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				1AEF3F691AA2BE2171B86C31C2D5EC23 /* .. */,
+				22D452B2BE5AD55FBA062A1A904E6667 /* .. */,
 			);
 			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
-		E675E7A3C62683C880C18249D8E5731A /* ios */ = {
+		E67B6F31A007065AE97F28860FCBCDAE /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				CBF0541E6650E2124DB8FAA97E9006BF /* Classes */,
+				098F24D191B2813A767A8FBD89EC089F /* .symlinks */,
 			);
 			name = ios;
 			path = ios;
 			sourceTree = "<group>";
 		};
-		EA544D87BF9802E19233F256EBA9D023 /* Pod */ = {
+		F3A8D05C1CAD9584AB44D0F2C5CB2A51 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				36A62630625CE129F77D2A9040418B74 /* Flutter.podspec */,
-				BF5B0CF499D9B5C0978DA6A7B55FE067 /* LICENSE */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		EB8B3F03327FF4CCE077704274A74CBE /* .symlinks */ = {
-			isa = PBXGroup;
-			children = (
-				09CD214CAB65D1D3AB5D8DC119DAF19F /* plugins */,
-			);
-			name = .symlinks;
-			path = .symlinks;
-			sourceTree = "<group>";
-		};
-		ECFA831FCC113B9FDE8E9F26BEB0BA16 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				46D2A4146D8B8E5D5BB71F63FCD59C23 /* .. */,
-			);
-			name = ..;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		F260664B6DFD069FCA4C9204B9E982F6 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				13B73FF038E970C9BFE0C6B001E428DB /* .. */,
+				3A1D5E279C3235BA1516353701268687 /* GitHub */,
 			);
 			name = ..;
 			path = ..;
@@ -379,7 +361,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BB3ECDAF009C5CAC943F5231A5ED38E /* FlutterStatusbarcolorPlugin.h in Headers */,
+				BFDB7AF58264457F84957F7966A16149 /* FlutterStatusbarcolorPlugin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,7 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AB43897D573543710218214665F7D93 /* flutter_statusbarcolor-dummy.m in Sources */,
-				BF8B326FFDED36CCBAB5E24A0D6E9ED5 /* FlutterStatusbarcolorPlugin.m in Sources */,
+				2AE91C2898DEC6AAFEA4F3442821E84E /* FlutterStatusbarcolorPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,7 +604,7 @@
 		};
 		332CEFD3778CB7CFC27E08512BE76B4E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 577FDB0F59F5F72558D81964166CC987 /* flutter_statusbarcolor.xcconfig */;
+			baseConfigurationReference = 6D6919159B975FC7B4EEE727B3A40D87 /* flutter_statusbarcolor.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -754,7 +736,7 @@
 		};
 		7DF7C877CAB1E04667A89EA25453AE1D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 577FDB0F59F5F72558D81964166CC987 /* flutter_statusbarcolor.xcconfig */;
+			baseConfigurationReference = 6D6919159B975FC7B4EEE727B3A40D87 /* flutter_statusbarcolor.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -779,7 +761,7 @@
 		};
 		962CAF8AB300C884F52E4E0C19D56687 /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 577FDB0F59F5F72558D81964166CC987 /* flutter_statusbarcolor.xcconfig */;
+			baseConfigurationReference = 6D6919159B975FC7B4EEE727B3A40D87 /* flutter_statusbarcolor.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
