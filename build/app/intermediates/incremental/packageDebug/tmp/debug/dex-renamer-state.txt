@@ -1,4 +1,4 @@
-#Wed Apr 17 14:47:54 BRT 2019
+#Fri Apr 19 12:22:43 BRT 2019
 base.0=/Users/yoda/Documents/GitHub/Shair/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

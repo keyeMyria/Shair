@@ -5,6 +5,8 @@ INJECTED from /Users/yoda/Documents/GitHub/Shair/android/app/src/main/AndroidMan
 INJECTED from /Users/yoda/Documents/GitHub/Shair/android/app/src/main/AndroidManifest.xml:1:1-33:12
 INJECTED from /Users/yoda/Documents/GitHub/Shair/android/app/src/main/AndroidManifest.xml:1:1-33:12
 MERGED from /Users/yoda/Documents/GitHub/Shair/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from [:shared_preferences] /Users/yoda/Documents/GitHub/Shair/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider] /Users/yoda/Documents/GitHub/Shair/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_statusbarcolor] /Users/yoda/Documents/GitHub/Shair/build/flutter_statusbarcolor/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 INJECTED from /Users/yoda/Documents/GitHub/Shair/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Users/yoda/Documents/GitHub/Shair/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -23,6 +25,12 @@ INJECTED from /Users/yoda/Documents/GitHub/Shair/android/app/src/debug/AndroidMa
 		INJECTED from /Users/yoda/Documents/GitHub/Shair/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/yoda/Documents/GitHub/Shair/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/yoda/Documents/GitHub/Shair/android/app/src/main/AndroidManifest.xml:3:5-66
+MERGED from /Users/yoda/Documents/GitHub/Shair/android/app/src/main/AndroidManifest.xml:3:5-66
+MERGED from /Users/yoda/Documents/GitHub/Shair/android/app/src/main/AndroidManifest.xml:3:5-66
+	android:name
+		ADDED from /Users/yoda/Documents/GitHub/Shair/android/app/src/main/AndroidManifest.xml:3:22-64
 application
 ADDED from /Users/yoda/Documents/GitHub/Shair/android/app/src/main/AndroidManifest.xml:9:5-32:19
 	android:label
@@ -65,6 +73,10 @@ uses-sdk
 INJECTED from /Users/yoda/Documents/GitHub/Shair/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/yoda/Documents/GitHub/Shair/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/yoda/Documents/GitHub/Shair/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences] /Users/yoda/Documents/GitHub/Shair/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/yoda/Documents/GitHub/Shair/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/yoda/Documents/GitHub/Shair/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/yoda/Documents/GitHub/Shair/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_statusbarcolor] /Users/yoda/Documents/GitHub/Shair/build/flutter_statusbarcolor/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_statusbarcolor] /Users/yoda/Documents/GitHub/Shair/build/flutter_statusbarcolor/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 INJECTED from /Users/yoda/Documents/GitHub/Shair/android/app/src/debug/AndroidManifest.xml
@@ -75,7 +87,3 @@ INJECTED from /Users/yoda/Documents/GitHub/Shair/android/app/src/debug/AndroidMa
 	android:minSdkVersion
 		INJECTED from /Users/yoda/Documents/GitHub/Shair/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/yoda/Documents/GitHub/Shair/android/app/src/debug/AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from /Users/yoda/Documents/GitHub/Shair/android/app/src/debug/AndroidManifest.xml:6:5-66
-	android:name
-		ADDED from /Users/yoda/Documents/GitHub/Shair/android/app/src/debug/AndroidManifest.xml:6:22-64

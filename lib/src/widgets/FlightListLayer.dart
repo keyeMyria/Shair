@@ -9,8 +9,12 @@ class FlightListLayer extends StatefulWidget {
 }
 
 class _FlightListLayerState extends State<FlightListLayer> {
+  bool isContainerDown = true;
+  double flightListHeaderOpacity = 0.0;
+  double verticalFlightListOpacity = 0.0;
+  int counter = 1;
   double horizontalListOpacity = 0.0;
-  double bigContainerHeight = 0.20;
+  double bigContainerHeight = 0.2;
   double placerContainerHeight = 0.20;
   @override
   Widget build(BuildContext context) {
@@ -20,262 +24,373 @@ class _FlightListLayerState extends State<FlightListLayer> {
     final ShairBloc shairBloc = BlocProvider.of<ShairBloc>(context);
     void animateContainerUp() {
       setState(() {
+        isContainerDown = false;
         placerContainerHeight = 0.0;
         bigContainerHeight = 0.7;
-        Future.delayed(Duration(milliseconds: 400), () {
+        Future.delayed(Duration(milliseconds: 300), () {
           setState(() {
+            flightListHeaderOpacity = 1.0;
+            verticalFlightListOpacity = 1.0;
             horizontalListOpacity = 1.0;
           });
         });
       });
     }
 
+    void animateContainerDown() {
+      setState(() {
+        flightListHeaderOpacity = 0.0;
+
+        placerContainerHeight = 0.2;
+        bigContainerHeight = 0.2;
+        horizontalListOpacity = 0.0;
+        verticalFlightListOpacity = 0.0;
+        isContainerDown = true;
+      });
+    }
+
     return LayoutBuilder(
       builder: (context, constraints) {
+        print(counter);
         return Stack(children: <Widget>[
           Positioned(
             bottom: constraints.maxHeight * 0,
             child: GestureDetector(
-              onTap: animateContainerUp,
-              child: AnimatedContainer(
-                decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius:
-                        BorderRadius.circular(constraints.maxWidth * 0.05)),
-                duration: Duration(milliseconds: 1000),
-                height: constraints.maxHeight * bigContainerHeight,
-                child: Column(children: <Widget>[
-                  Expanded(
-                      child: Column(children: <Widget>[
-                    Container(
-                      height: constraints.maxHeight * 0.05,
-                      color: Colors.blue,
-                    ),
-                    Container(
-                        height: constraints.maxHeight * 0.19,
-                        width: constraints.maxWidth,
-                        color: Colors.transparent,
-                        child: AnimatedOpacity(
-                          duration: Duration(milliseconds: 200),
-                          opacity: horizontalListOpacity,
-                          child: Container(
-                            color: Colors.transparent,
-                            child: ListView.builder(
-                              scrollDirection: Axis.horizontal,
-                              itemCount: 25,
-                              itemBuilder: (BuildContext context, int Index) {
-                                return Container(
-                                  margin: EdgeInsets.only(
-                                      left: constraints.maxWidth * 0.02),
-                                  width: constraints.maxWidth * 0.12,
-                                  color: Colors.transparent,
-                                  child: Column(
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.spaceEvenly,
-                                    children: <Widget>[
-                                      Text('D',
-                                          style: TextStyle(
-                                            decoration: TextDecoration.none,
-                                            color: Colors.black,
-                                            fontSize:
-                                                constraints.maxHeight * 0.02,
-                                          )),
-                                      Text('21',
-                                          style: TextStyle(
-                                            decoration: TextDecoration.none,
-                                            color: Colors.grey[100],
-                                            fontSize:
-                                                constraints.maxHeight * 0.02,
-                                          )),
-                                      Container(
-                                        width: constraints.maxWidth * 0.085,
-                                        height: constraints.maxHeight * 0.07,
-                                        decoration: BoxDecoration(
-                                            color: Colors.grey[100],
-                                            borderRadius: BorderRadius.circular(
-                                                constraints.maxWidth * 0.01)),
-                                      ),
-                                      Text('R\$899,9',
-                                          style: TextStyle(
-                                            decoration: TextDecoration.none,
-                                            color: Colors.grey[100],
-                                            fontSize:
-                                                constraints.maxHeight * 0.015,
-                                          )),
-                                    ],
+                onTap: () {
+                  if (isContainerDown == true) {
+                    animateContainerUp();
+                  }
+                },
+                child: AnimatedContainer(
+                    curve: Curves.easeInOutCubic,
+                    duration: Duration(milliseconds: 500),
+                    decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius:
+                            BorderRadius.circular(constraints.maxWidth * 0.04)),
+                    height: constraints.maxHeight * bigContainerHeight,
+                    width: constraints.maxWidth,
+                    child: Column(
+                      children: <Widget>[
+                        Expanded(
+                          flex: 1,
+                          child: AnimatedOpacity(
+                            duration: Duration(milliseconds: 100),
+                            opacity: flightListHeaderOpacity,
+                            child: Container(
+                              padding: EdgeInsets.only(
+                                  top: constraints.maxHeight * 0.03),
+                              color: Colors.transparent,
+                              child: Row(
+                                children: <Widget>[
+                                  Container(
+                                    margin: EdgeInsets.only(
+                                        left: constraints.maxWidth * 0.03),
+                                    child: GestureDetector(
+                                      onTap: animateContainerDown,
+                                      child: Icon(Icons.arrow_back,
+                                          color: Colors.black,
+                                          size: constraints.maxWidth * 0.06),
+                                    ),
                                   ),
-                                );
-                              },
+                                  Container(
+                                    padding: EdgeInsets.only(
+                                        left: constraints.maxWidth * 0.05),
+                                    child: Text(
+                                      'Lista de Voos',
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.w500,
+                                          decoration: TextDecoration.none,
+                                          color: Colors.black,
+                                          fontSize:
+                                              constraints.maxHeight * 0.03),
+                                    ),
+                                  ),
+                                  Container(
+                                    margin: EdgeInsets.only(
+                                        left: constraints.maxWidth * 0.42),
+                                    child: Icon(Icons.calendar_today,
+                                        color: Colors.black,
+                                        size: constraints.maxWidth * 0.06),
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
-                        )),
-                    Expanded(
-                      child: Container(
-                          height: constraints.maxHeight * 0.5,
-                          width: constraints.maxWidth,
-                          child: ListView.builder(
-                            itemCount: 10,
-                            itemBuilder: (BuildContext context, int Index) {
-                              return Container(
-                                margin: EdgeInsets.only(
-                                    left: constraints.maxWidth * 0.05,
-                                    right: constraints.maxWidth * 0.05,
-                                    bottom: constraints.maxHeight * 0.02),
-                                height: constraints.maxHeight * 0.15,
-                                width: constraints.maxWidth * 0.9,
-                                decoration: BoxDecoration(
-                                    border: Border.all(
-                                        color: Colors.grey[200],
-                                        width: constraints.maxWidth * 0.005),
-                                    borderRadius: BorderRadius.circular(
-                                        constraints.maxWidth * 0.03)),
-                                child: Row(
-                                  mainAxisAlignment:
-                                      MainAxisAlignment.spaceBetween,
-                                  children: <Widget>[
-                                    Container(
-                                      width: constraints.maxWidth * 0.2,
-                                      color: Colors.transparent,
-                                      padding: EdgeInsets.only(
-                                          top: constraints.maxHeight * 0.04),
-                                      child: Column(
-                                        children: <Widget>[
-                                          Text(
-                                            '9:50',
+                        ),
+                        Expanded(
+                          flex: 3,
+                          child: Container(
+                            color: Colors.white,
+                            child: AnimatedOpacity(
+                              duration: Duration(milliseconds: 100),
+                              opacity: horizontalListOpacity,
+                              child: ListView.builder(
+                                scrollDirection: Axis.horizontal,
+                                itemCount: 25,
+                                itemBuilder: (BuildContext context, int Index) {
+                                  return Container(
+                                    height: constraints.maxHeight * 0.01,
+                                    margin: EdgeInsets.only(
+                                        left: constraints.maxWidth * 0.02),
+                                    width: constraints.maxWidth * 0.12,
+                                    color: Colors.white,
+                                    child: Column(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceEvenly,
+                                      children: <Widget>[
+                                        Text('D',
                                             style: TextStyle(
+                                              fontWeight: FontWeight.w600,
                                               decoration: TextDecoration.none,
                                               color: Colors.black,
                                               fontSize:
-                                                  constraints.maxHeight * 0.03,
-                                            ),
-                                          ),
-                                          Container(
-                                            height:
-                                                constraints.maxHeight * 0.01,
-                                            color: Colors.white,
-                                          ),
-                                          Text(
-                                            'CTU',
+                                                  constraints.maxHeight * 0.02,
+                                            )),
+                                        Text('21',
                                             style: TextStyle(
-                                                decoration: TextDecoration.none,
-                                                color: Colors.grey[300],
-                                                fontSize:
-                                                    constraints.maxHeight *
-                                                        0.02),
-                                          ),
-                                        ],
-                                      ),
+                                              decoration: TextDecoration.none,
+                                              fontWeight: FontWeight.w500,
+                                              color: Colors.black26,
+                                              fontSize:
+                                                  constraints.maxHeight * 0.02,
+                                            )),
+                                        Container(
+                                          width: constraints.maxWidth * 0.085,
+                                          height: constraints.maxHeight * 0.07,
+                                          decoration: BoxDecoration(
+                                              color: Colors.grey[100],
+                                              borderRadius:
+                                                  BorderRadius.circular(
+                                                      constraints.maxWidth *
+                                                          0.01)),
+                                        ),
+                                        Text('R\$899,90',
+                                            style: TextStyle(
+                                              decoration: TextDecoration.none,
+                                              fontWeight: FontWeight.w100,
+                                              color: Colors.black38,
+                                              fontSize:
+                                                  constraints.maxHeight * 0.014,
+                                            )),
+                                      ],
                                     ),
-                                    Container(
-                                      width: constraints.maxWidth * 0.4,
-                                      color: Colors.transparent,
-                                      child: Column(
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.spaceEvenly,
-                                        children: <Widget>[
-                                          Row(
+                                  );
+                                },
+                              ),
+                            ),
+                          ),
+                        ),
+                        Expanded(
+                          flex: 7,
+                          child: Container(
+                              color: Colors.white,
+                              child: AnimatedOpacity(
+                                duration: Duration(milliseconds: 300),
+                                opacity: verticalFlightListOpacity,
+                                child: Container(
+                                    color: Colors.white,
+                                    height: constraints.maxHeight * 0.3,
+                                    width: constraints.maxWidth,
+                                    child: ListView.builder(
+                                      itemCount: 20,
+                                      itemBuilder:
+                                          (BuildContext context, int Index) {
+                                        return Container(
+                                          height: constraints.maxHeight * 0.15,
+                                          margin: EdgeInsets.only(
+                                              left: constraints.maxWidth * 0.05,
+                                              right:
+                                                  constraints.maxWidth * 0.05,
+                                              bottom:
+                                                  constraints.maxHeight * 0.02),
+                                          decoration: BoxDecoration(
+                                              border: Border.all(
+                                                  color: Colors.black12,
+                                                  width: constraints.maxWidth *
+                                                      0.003),
+                                              borderRadius:
+                                                  BorderRadius.circular(
+                                                      constraints.maxWidth *
+                                                          0.02)),
+                                          child: Row(
                                             mainAxisAlignment:
                                                 MainAxisAlignment.spaceBetween,
                                             children: <Widget>[
                                               Container(
-                                                margin: EdgeInsets.only(
+                                                padding: EdgeInsets.only(
                                                     top: constraints.maxHeight *
-                                                        0.02,
-                                                    left:
-                                                        constraints.maxHeight *
-                                                            0.0),
-                                                child: Text(
-                                                  '14/05/2019',
-                                                  style: TextStyle(
-                                                      decoration:
-                                                          TextDecoration.none,
-                                                      color: Colors.grey[400],
-                                                      fontSize: constraints
-                                                              .maxHeight *
-                                                          0.024),
+                                                        0.03),
+                                                width:
+                                                    constraints.maxWidth * 0.2,
+                                                color: Colors.transparent,
+                                                child: Column(
+                                                  children: <Widget>[
+                                                    Text(
+                                                      '9:50',
+                                                      style: TextStyle(
+                                                        decoration:
+                                                            TextDecoration.none,
+                                                        fontWeight:
+                                                            FontWeight.w400,
+                                                        color: Colors.black,
+                                                        fontSize: constraints
+                                                                .maxHeight *
+                                                            0.035,
+                                                      ),
+                                                    ),
+                                                    Container(
+                                                      padding: EdgeInsets.only(
+                                                          top: constraints
+                                                                  .maxHeight *
+                                                              0.005),
+                                                      child: Text(
+                                                        'CTU',
+                                                        style: TextStyle(
+                                                            fontWeight:
+                                                                FontWeight.w500,
+                                                            decoration:
+                                                                TextDecoration
+                                                                    .none,
+                                                            color:
+                                                                Colors.black12,
+                                                            fontSize: constraints
+                                                                    .maxHeight *
+                                                                0.02),
+                                                      ),
+                                                    ),
+                                                  ],
                                                 ),
                                               ),
                                               Container(
-                                                margin: EdgeInsets.only(
-                                                    top: constraints.maxHeight *
-                                                        0.009),
-                                                height: constraints.maxHeight *
-                                                    0.02,
                                                 width:
-                                                    constraints.maxWidth * 0.15,
-                                                child: Icon(
-                                                  Icons.access_time,
-                                                  size: constraints.maxWidth *
-                                                      0.05,
+                                                    constraints.maxWidth * 0.4,
+                                                color: Colors.transparent,
+                                                child: Column(
+                                                  mainAxisAlignment:
+                                                      MainAxisAlignment
+                                                          .spaceEvenly,
+                                                  children: <Widget>[
+                                                    Container(
+                                                      height: constraints
+                                                              .maxHeight *
+                                                          0.04,
+                                                      color: Colors.transparent,
+                                                      child: Center(
+                                                        child: Text(
+                                                          '14/05/2019',
+                                                          style: TextStyle(
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .w300,
+                                                              decoration:
+                                                                  TextDecoration
+                                                                      .none,
+                                                              color: Colors
+                                                                  .black26,
+                                                              fontSize: constraints
+                                                                      .maxHeight *
+                                                                  0.022),
+                                                        ),
+                                                      ),
+                                                    ),
+                                                    Container(
+                                                      margin: EdgeInsets.only(
+                                                          bottom: constraints
+                                                                  .maxHeight *
+                                                              0.02),
+                                                      height: constraints
+                                                              .maxHeight *
+                                                          0.01,
+                                                      child: Center(
+                                                        child: Text(
+                                                          'R\$749,90',
+                                                          style: TextStyle(
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .w400,
+                                                              decoration:
+                                                                  TextDecoration
+                                                                      .none,
+                                                              color: Colors
+                                                                  .black87,
+                                                              fontSize: constraints
+                                                                      .maxHeight *
+                                                                  0.03),
+                                                        ),
+                                                      ),
+                                                    )
+                                                  ],
                                                 ),
-                                              )
+                                              ),
+                                              Container(
+                                                padding: EdgeInsets.only(
+                                                    top: constraints.maxHeight *
+                                                        0.03),
+                                                width:
+                                                    constraints.maxWidth * 0.2,
+                                                color: Colors.transparent,
+                                                child: Column(
+                                                  children: <Widget>[
+                                                    Text(
+                                                      '12:50',
+                                                      style: TextStyle(
+                                                        decoration:
+                                                            TextDecoration.none,
+                                                        fontWeight:
+                                                            FontWeight.w400,
+                                                        color: Colors.black,
+                                                        fontSize: constraints
+                                                                .maxHeight *
+                                                            0.035,
+                                                      ),
+                                                    ),
+                                                    Container(
+                                                      padding: EdgeInsets.only(
+                                                          top: constraints
+                                                                  .maxHeight *
+                                                              0.005),
+                                                      child: Text(
+                                                        'CGT',
+                                                        style: TextStyle(
+                                                            fontWeight:
+                                                                FontWeight.w500,
+                                                            decoration:
+                                                                TextDecoration
+                                                                    .none,
+                                                            color:
+                                                                Colors.black12,
+                                                            fontSize: constraints
+                                                                    .maxHeight *
+                                                                0.02),
+                                                      ),
+                                                    ),
+                                                  ],
+                                                ),
+                                              ),
                                             ],
                                           ),
-                                          Container(
-                                            margin: EdgeInsets.only(
-                                                bottom: constraints.maxHeight *
-                                                    0.02),
-                                            height:
-                                                constraints.maxHeight * 0.01,
-                                            child: Center(
-                                              child: Text(
-                                                'R\$749,90',
-                                                style: TextStyle(
-                                                    decoration:
-                                                        TextDecoration.none,
-                                                    color: Colors.black,
-                                                    fontSize:
-                                                        constraints.maxHeight *
-                                                            0.03),
-                                              ),
-                                            ),
-                                          )
-                                        ],
-                                      ),
-                                    ),
-                                    Container(
-                                      width: constraints.maxWidth * 0.2,
-                                      color: Colors.transparent,
-                                      padding: EdgeInsets.only(
-                                          top: constraints.maxHeight * 0.04),
-                                      child: Column(
-                                        children: <Widget>[
-                                          Text(
-                                            '12:50',
-                                            style: TextStyle(
-                                              decoration: TextDecoration.none,
-                                              color: Colors.black,
-                                              fontSize:
-                                                  constraints.maxHeight * 0.03,
-                                            ),
-                                          ),
-                                          Container(
-                                            height:
-                                                constraints.maxHeight * 0.01,
-                                            color: Colors.white,
-                                          ),
-                                          Text(
-                                            'CFO',
-                                            style: TextStyle(
-                                                decoration: TextDecoration.none,
-                                                color: Colors.grey[300],
-                                                fontSize:
-                                                    constraints.maxHeight *
-                                                        0.02),
-                                          ),
-                                        ],
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              );
-                            },
-                          )),
-                    ),
-                  ])),
-                ]),
-              ),
-            ),
+                                        );
+                                      },
+                                    )),
+                              )),
+                        ),
+                      ],
+                    ))
+                // child: AnimatedContainer(
+                //   decoration: BoxDecoration(
+                //       color: Colors.red,
+                //       borderRadius:
+                //           BorderRadius.circular(constraints.maxWidth * 0.05)),
+                //   duration: Duration(milliseconds: 400),
+                //   curve: Curves.easeIn,
+                //   height: constraints.maxHeight * bigContainerHeight,
+                //   child: Container(
+                //     color: Colors.red,
+                //     height: 30,
+                //   ),
+                // ),
+                ),
           ),
         ]);
       },

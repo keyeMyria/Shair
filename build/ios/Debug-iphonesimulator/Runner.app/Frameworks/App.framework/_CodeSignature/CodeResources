@@ -10,15 +10,15 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		sjDIKWQw/t1TECwvjNt8e3Xr61I=
+		mOXukUkMgHosohveAjO+d3Hiiuc=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
-		LeFeJRsPGs/sGNueq2XYh1VjT40=
+		vaRa5lvNtYmyZ7hsSjUCB7rBEqM=
 		</data>
 		<key>flutter_assets/LICENSE</key>
 		<data>
-		qwYHkIxfLJNNzDxUcZheuWrHHWE=
+		y8wKWtVLNA+bkLYfdlyO5yvUosY=
 		</data>
 		<key>flutter_assets/assets/botaoAssento.flr</key>
 		<data>
@@ -56,13 +56,13 @@
 		<data>
 		lVlf+/27s0y+rKo9Giyu9LyMa7w=
 		</data>
+		<key>flutter_assets/fonts/Comfortaa%5Bwght%5D.ttf</key>
+		<data>
+		gJZunPTypYvU5ns8zuajMIEhgMg=
+		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.ttf</key>
 		<data>
 		nIzDzw7hjOThppiX5OleKNAxtqM=
-		</data>
-		<key>flutter_assets/fonts/botaoDestino.ttf</key>
-		<data>
-		TTiKURzSaaMliT+JkOKL966G5Qk=
 		</data>
 		<key>flutter_assets/images/botao-destino.png</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		dV/nuqkSXs8JDenFzLlIvCd1azE=
+		YJFY/76vGxF9dLmiLR8jJGZXfGs=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -109,43 +109,27 @@
 	<dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sjDIKWQw/t1TECwvjNt8e3Xr61I=
-			</data>
 			<key>hash2</key>
 			<data>
-			4h0GA9X6WBcfXOMdlziesIScQifDIF4G8cdJlc3RZNw=
+			8zwRziYHEwoG6+f5Vl78sDfw/ImMhtA+m0wUjaGRsG8=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LeFeJRsPGs/sGNueq2XYh1VjT40=
-			</data>
 			<key>hash2</key>
 			<data>
-			RVXwcxmZ6kvo5UMgPHhyg5cV7Rh564oy7DhFWGQZt+k=
+			IeUlL2HyBC9eKZMB1gAhAX3Uema5DgwjyeTCwHZ1bbg=
 			</data>
 		</dict>
 		<key>flutter_assets/LICENSE</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qwYHkIxfLJNNzDxUcZheuWrHHWE=
-			</data>
 			<key>hash2</key>
 			<data>
-			NvFiXypB9eXV3y00/2QvqdNbFZhHRfnu+NJEK8578Ow=
+			yMKR7HV+O4MYx9sUDianojAEIFpG1dsqYIjc0JbqT7o=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/botaoAssento.flr</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FnP10W9rzOJbTRqY1Ve7eXF4M2E=
-			</data>
 			<key>hash2</key>
 			<data>
 			2S/dBqHjcKwKCR8q0NjKHMSVFmuYcjO9rzU/zObm84I=
@@ -153,10 +137,6 @@
 		</dict>
 		<key>flutter_assets/assets/botaoAviao.flr</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jloKYZkUS0bisEmeSm3IBrvUaWM=
-			</data>
 			<key>hash2</key>
 			<data>
 			bZM9R2hzAZ6VgW+pb21Va1DB6e3JOcMUVSyN//e2FIE=
@@ -164,10 +144,6 @@
 		</dict>
 		<key>flutter_assets/assets/botaoDestino.flr</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Lsqoi4trIfjsE55cI3fmVPpLHPM=
-			</data>
 			<key>hash2</key>
 			<data>
 			Yalj2tyT9hUWH5jcPY0IvhMMMZKtt8uCsl7uvLXhRL8=
@@ -175,10 +151,6 @@
 		</dict>
 		<key>flutter_assets/assets/botaoPartida.flr</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UlK+YpaZTj5KDk/bJ/ldb6KSryg=
-			</data>
 			<key>hash2</key>
 			<data>
 			uxpwCOtgc4Z/2mO2s5MbOPX0Ytxwp+KN90xzaVjBsTA=
@@ -186,10 +158,6 @@
 		</dict>
 		<key>flutter_assets/assets/botoesIdaEIdaEVolta.flr</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RPep/yD1NKdyK5VfAqC7MjX0sss=
-			</data>
 			<key>hash2</key>
 			<data>
 			l403VnyoSToaItmQy1U3Kwr5ePHyMy3yn1MBi3DdBXw=
@@ -197,10 +165,6 @@
 		</dict>
 		<key>flutter_assets/assets/menuComDegrade.flr</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BtTlY3V/AgdnLGKNSFnR5Ei16AU=
-			</data>
 			<key>hash2</key>
 			<data>
 			Gskb24tepmKf1fQRSDAYePKvYI3YzQg8DXAc/VbL4Dc=
@@ -208,10 +172,6 @@
 		</dict>
 		<key>flutter_assets/assets/quadrosCinzas.flr</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Hm9LpFeZlrw8n0FFYocLF6gk6Ms=
-			</data>
 			<key>hash2</key>
 			<data>
 			J4yAX9iZWShvhfsWSDVBqM9Ph1dFwMHLQDxC2t9V3Pc=
@@ -219,10 +179,6 @@
 		</dict>
 		<key>flutter_assets/assets/telaDois.flr</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pGik5M1B2OXx3U3VFaDVRnNvYiY=
-			</data>
 			<key>hash2</key>
 			<data>
 			04cZwVXVSL2GCyYHiAbBWmlSkZlLRtovpFFXBQClLxU=
@@ -230,43 +186,27 @@
 		</dict>
 		<key>flutter_assets/assets/voosPopulares.flr</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lVlf+/27s0y+rKo9Giyu9LyMa7w=
-			</data>
 			<key>hash2</key>
 			<data>
 			T9uvnuHa/3sQJbIzwQjnbXwnEeM0y8w45G2LxUkyz1E=
 			</data>
 		</dict>
+		<key>flutter_assets/fonts/Comfortaa%5Bwght%5D.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ut85gMjTowGC8MnNZTkH1Nxo45hxXJ/RaIROKxHMmNQ=
+			</data>
+		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nIzDzw7hjOThppiX5OleKNAxtqM=
-			</data>
 			<key>hash2</key>
 			<data>
 			Wuh7JiGdsCj8cMnXMpa8jtW4ekzRz359zPE0NyQ7iRE=
 			</data>
 		</dict>
-		<key>flutter_assets/fonts/botaoDestino.ttf</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TTiKURzSaaMliT+JkOKL966G5Qk=
-			</data>
-			<key>hash2</key>
-			<data>
-			0Zc3YiE8V3XWI2Klyj+BfypecNiRv9Xtws/gZv3MUYo=
-			</data>
-		</dict>
 		<key>flutter_assets/images/botao-destino.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			H7fOSgpSbImLbsW96pN7fjFLiQc=
-			</data>
 			<key>hash2</key>
 			<data>
 			02372iTOdwadbXdsSG/J7XaqhmFVf6jJwxAZFH7ejhA=
@@ -274,10 +214,6 @@
 		</dict>
 		<key>flutter_assets/images/mapaBrasil.jpg</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AYZ/Td/fU4kwwZuJUucDYmdy9U0=
-			</data>
 			<key>hash2</key>
 			<data>
 			pn2q8nulo+QBmt+ECK95Ye4d8iX1RhGo0ZqzJQ5aanw=
@@ -285,10 +221,6 @@
 		</dict>
 		<key>flutter_assets/images/morrosp.jpg</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UiaYzx2ME+KlMMOZVkmsiX156tY=
-			</data>
 			<key>hash2</key>
 			<data>
 			5IZhrfokqhTcgiomZgh6O1lJ+TBMMmRhbthRAFo/Xbo=
@@ -296,10 +228,6 @@
 		</dict>
 		<key>flutter_assets/images/rio.jpg</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bVVLjhcOj4M+aWW8QPxOMv5rJzs=
-			</data>
 			<key>hash2</key>
 			<data>
 			SN4BHGQSpbR3tNsqoI8AUFgg6fh/oEA2YMTSdvSJeKY=
@@ -307,10 +235,6 @@
 		</dict>
 		<key>flutter_assets/images/saopaulo.jpg</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FyOK5r5AFpKfdI+d/C655/D6osI=
-			</data>
 			<key>hash2</key>
 			<data>
 			rzLRFRR1B4gdqqPIJ+7MZSEcsCzC+FPLpltdyQAYvUg=
@@ -318,10 +242,6 @@
 		</dict>
 		<key>flutter_assets/images/worldMap.jpg</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			k/jNFkGEptmKntbMvXOWYvFYvNE=
-			</data>
 			<key>hash2</key>
 			<data>
 			NCgczEGJtk0FMRLyCGq7dtj1cv34rThdepIclgWB5Qk=
@@ -329,10 +249,6 @@
 		</dict>
 		<key>flutter_assets/isolate_snapshot_data</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gBSOq7hXyIYlNR2gzpusf7dA+yk=
-			</data>
 			<key>hash2</key>
 			<data>
 			YkTsXaBaKbPh4mU+t7AzDBQnT4XBRU/pnOgecuRrW64=
@@ -340,21 +256,13 @@
 		</dict>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dV/nuqkSXs8JDenFzLlIvCd1azE=
-			</data>
 			<key>hash2</key>
 			<data>
-			lwlsgbUxK8w0xgaybcHBYEhQsQvhATYItIwOynZqAzA=
+			z10cWxuOS/axUQZSFu6W+QtDOcSAZET7IfxPs/WrtC4=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AlgKy1FbEPcZcd0kdJLLHtOy68I=
-			</data>
 			<key>hash2</key>
 			<data>
 			ETQZmaktT/cBMTCTNJd49hWX7HSYPa18vp5zuIwK13c=
@@ -362,10 +270,6 @@
 		</dict>
 		<key>flutter_assets/vm_snapshot_data</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KvL4yNFboMFxn6oAvhGQc2VfrGM=
-			</data>
 			<key>hash2</key>
 			<data>
 			po8oL2VxC6vqAuzXZ3CQyzSU+ADO/Hki6/7UIKu+xRA=

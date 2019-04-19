@@ -20,6 +20,7 @@ class _ShairAppState extends State<ShairApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        // showPerformanceOverlay: true,
         theme: ThemeData(
           cursorColor: Colors.black,
         ),
@@ -31,72 +32,16 @@ class _ShairAppState extends State<ShairApp> {
               return Container(
                 child: Stack(
                   children: <Widget>[
-                    GestureDetector(
-                        onTap: () {
-                          FocusScope.of(context).requestFocus(new FocusNode());
-                        },
-                        child: Container(
-                            child: Stack(
-                          children: <Widget>[
-                            Container(
-                              height: double.infinity,
-                              width: double.infinity,
-                              child: Image.asset(
-                                'images/mapaBrasil.jpg',
-                                fit: BoxFit.cover,
-                                scale: 1.0,
-                              ),
-                            ),
-                            Align(
-                              alignment: Alignment.bottomCenter,
-                              child: Container(
-                                height: constraints.maxHeight * 0.35,
-                                decoration: BoxDecoration(
-                                    color: Colors.grey[50],
-                                    gradient: LinearGradient(
-                                        begin: FractionalOffset.center,
-                                        end: FractionalOffset.topCenter,
-                                        colors: [
-                                          Colors.grey[50].withOpacity(1.0),
-                                          Colors.grey[50].withOpacity(0.0)
-                                        ],
-                                        stops: [
-                                          0.0,
-                                          1.0
-                                        ])),
-                              ),
-                            )
-
-                            // Opacity(
-                            //   opacity: 0.5,
-                            //   child: Container(
-                            //     decoration: BoxDecoration(
-                            //         gradient: LinearGradient(
-                            //             begin: FractionalOffset.topCenter,
-                            //             end: FractionalOffset.bottomCenter,
-                            //             colors: [
-                            //           Colors.white,
-                            //           Colors.grey[300],
-                            //         ],
-                            //             stops: [
-                            //           0.0,
-                            //           1.0
-                            //         ])),
-                            //     height: double.infinity,
-                            //     width: double.infinity,
-                            //   ),
-                            // ),
-                          ],
-                        ))),
-                    VoosPopularesHeaderLayer(),
+                    MapContainerLayer(),
+                    // VoosPopularesHeaderLayer(),
                     // BotaoAviaoLayer(),
                     // BotaoAssentoLayer(),
                     // MapContainerLayer(),
-                    VoosPopularesLayer(),
-                    FlightListLayer(),
+                    // VoosPopularesLayer(),
                     SearchInputLayer(),
-
-                    ShairActivatorsLayer(),
+                    FlightListLayer(),
+                    // BotaoProcurarLayer(),
+                    // ShairActivatorsLayer(),
                   ],
                 ),
               );

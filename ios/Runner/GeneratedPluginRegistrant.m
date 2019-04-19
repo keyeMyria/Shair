@@ -4,11 +4,15 @@
 
 #import "GeneratedPluginRegistrant.h"
 #import <flutter_statusbarcolor/FlutterStatusbarcolorPlugin.h>
+#import <path_provider/PathProviderPlugin.h>
+#import <shared_preferences/SharedPreferencesPlugin.h>
 
 @implementation GeneratedPluginRegistrant
 
 + (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry {
   [FlutterStatusbarcolorPlugin registerWithRegistrar:[registry registrarForPlugin:@"FlutterStatusbarcolorPlugin"]];
+  [FLTPathProviderPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTPathProviderPlugin"]];
+  [FLTSharedPreferencesPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTSharedPreferencesPlugin"]];
 }
 
 @end

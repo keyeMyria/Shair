@@ -1,0 +1,29 @@
+{
+  "name": "mapbox_gl",
+  "version": "0.0.1",
+  "summary": "A new Flutter plugin.",
+  "description": "A new Flutter plugin.",
+  "homepage": "http://example.com",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Your Company": "email@example.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "Mapbox-iOS-SDK": [
+      "~> 4.8.0"
+    ]
+  },
+  "platforms": {
+    "ios": "9.0"
+  }
+}
