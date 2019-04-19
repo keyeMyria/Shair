@@ -85,10 +85,10 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Comfortaa
+    - family: Location
       fonts:
-        - asset: fonts/Comfortaa[wght].ttf
-          weight: 400
+        - asset: fonts/botaoDestino.ttf
+
 
   #         style: italic
   #   - family: Trajan Pro
