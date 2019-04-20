@@ -13,6 +13,7 @@ class ShairBloc implements BlocBase {
   var _weekHorizontalFlightListOpacityController =
       StreamController<double>.broadcast();
   var _searchInputController = StreamController<String>.broadcast();
+  var _botaoCoringaController = StreamController<String>.broadcast();
   // var _canShowFlightListController = StreamController<bool>.broadcast();
 
   Stream<String> get botaoAviaoState => _botaoAviaoController.stream;
@@ -27,6 +28,7 @@ class ShairBloc implements BlocBase {
   Stream<double> get weekHorizontalFlightListOpacityState =>
       _weekHorizontalFlightListOpacityController.stream;
   Stream<String> get searchInputState => _searchInputController.stream;
+  Stream<String> get botaoCoringaState => _botaoCoringaController.stream;
   // Stream<bool> get canShowFlightListState =>
   //     _canShowFlightListController.stream;
 
@@ -42,7 +44,7 @@ class ShairBloc implements BlocBase {
   Sink<double> get newWeekHorizontalFlighListOpacityState =>
       _weekHorizontalFlightListOpacityController.sink;
   Sink<String> get newSearchInputState => _searchInputController.sink;
-
+  Sink<String> get newBotaoCoringaState => _botaoCoringaController.sink;
   // Sink<bool> get newCanShowFlightListState => _canShowFlightListController.sink;
 
   // void setCanShowFlightListToTrue() {
@@ -52,6 +54,19 @@ class ShairBloc implements BlocBase {
   // void setCanShowFlightListToFalse() {
   //   newCanShowFlightListState.add(false);
   // }
+  void pesquisarParaCalendario() {
+    newBotaoProcurarState.add('pesquisa');
+    newBotaoCoringaState.add('calendarioAparecendo');
+    Future.delayed(Duration(milliseconds: 400), () {
+      newBotaoProcurarState.add('some');
+    });
+  }
+
+  void calendarioParaPesquisar() {
+    newBotaoProcurarState.add('pesquisaVoltar');
+    newBotaoCoringaState.add('pesquisaAparecendo');
+  }
+
   void nenhumAberto() {
     newSearchInputState.add('nenhumAberto');
   }
@@ -136,6 +151,7 @@ class ShairBloc implements BlocBase {
 
   @override
   dispose() {
+    _botaoCoringaController.close();
     // _canShowFlightListController.close();
     _searchInputController.close();
     _weekHorizontalFlightListOpacityController.close();

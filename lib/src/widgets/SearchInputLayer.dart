@@ -10,7 +10,8 @@ class SearchInputLayer extends StatefulWidget {
 class _SearchInputLayerState extends State<SearchInputLayer> {
   CrossFadeState crossFadePartida = CrossFadeState.showFirst;
   CrossFadeState crossFadeDestino = CrossFadeState.showFirst;
-
+  ScrollController destinoListController = ScrollController();
+  ScrollController partidaListController = ScrollController();
   bool enableStateDestino = false;
   double numOneDestino = 0.075;
   String userInputDestino = '';
@@ -281,6 +282,7 @@ class _SearchInputLayerState extends State<SearchInputLayer> {
                                     Expanded(
                                       child: Container(
                                         child: ListView.builder(
+                                          controller: destinoListController,
                                           itemCount:
                                               suggestedListDestino.length,
                                           itemBuilder: (context, index) {
@@ -290,6 +292,8 @@ class _SearchInputLayerState extends State<SearchInputLayer> {
                                                     .requestFocus(
                                                         new FocusNode());
                                                 setState(() {
+                                                  destinoListController
+                                                      .jumpTo(0.0);
                                                   myControllerDestino.text =
                                                       suggestedListDestino[
                                                           index];
@@ -633,6 +637,7 @@ class _SearchInputLayerState extends State<SearchInputLayer> {
                                     Expanded(
                                       child: Container(
                                         child: ListView.builder(
+                                          controller: partidaListController,
                                           itemCount:
                                               suggestedListPartida.length,
                                           itemBuilder: (context, index) {
@@ -641,6 +646,8 @@ class _SearchInputLayerState extends State<SearchInputLayer> {
                                                   FocusScope.of(context)
                                                       .requestFocus(
                                                           new FocusNode());
+                                                  partidaListController
+                                                      .jumpTo(0.0);
                                                   setState(() {
                                                     myControllerPartida.text =
                                                         suggestedListPartida[

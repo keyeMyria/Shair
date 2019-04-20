@@ -33,14 +33,14 @@ class _ShairAppState extends State<ShairApp> {
                 child: Stack(
                   children: <Widget>[
                     MapContainerLayer(),
-                    // VoosPopularesHeaderLayer(),
+
                     // BotaoAviaoLayer(),
                     // BotaoAssentoLayer(),
                     // MapContainerLayer(),
-                    // VoosPopularesLayer(),
+
                     SearchInputLayer(),
                     FlightListLayer(),
-                    // BotaoProcurarLayer(),
+
                     // ShairActivatorsLayer(),
                   ],
                 ),

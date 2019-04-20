@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.shair"
+    package="com.example.jesus"
     android:versionCode="1"
     android:versionName="1.0.0" >
 
@@ -21,11 +21,12 @@
     -->
     <application
         android:name="io.flutter.app.FlutterApplication"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Shair" >
+        android:label="jesus" >
         <activity
-            android:name="com.example.shair.MainActivity"
+            android:name="com.example.jesus.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:launchMode="singleTop"
